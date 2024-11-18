@@ -1,0 +1,72 @@
+let menu = document.getElementById("boton2");
+menu.addEventListener("click", function () {
+
+    var cambio1 = document.getElementById("text1")
+    cambio1.textContent = "Reinaldo Rueda"
+    var ccambio1 = document.getElementById("textt1")
+    ccambio1.textContent = "Guia turistico"
+    var cambioo1 = document.getElementById("texto1")
+    cambioo1.textContent = "Que mejor manera de conocer las tierras llaneras que con un nativo de esa región."
+    var imagen1 = document.getElementById("primero")
+    imagen1.src = "Imagenes/image_content_35913716_20200619192328.jpg"
+    var cambio2 = document.getElementById("text2")
+    cambio2.textContent = "Keyco Mua tay"
+    var ccambio2 = document.getElementById("textt2")
+    ccambio2.textContent = "Guia turistica"
+    var cambioo2 = document.getElementById("texto2")
+    cambioo2.textContent = "Ella es la encargada de que la pases bien el Amazonas, su conocmineto te ayudara a que la pases bien."
+    var imagen2 = document.getElementById("segundo")
+    imagen2.src = "Imagenes/guiaaa.jpg"
+    var cambio3 = document.getElementById("text3")
+    cambio3.textContent = "Fuji Mua Tay"
+    var ccambio3 = document.getElementById("textt3")
+    ccambio3.textContent = "Conductor"
+    var cambioo3 = document.getElementById("texto3")
+    cambioo3.textContent = "Estará a cargo de moverte por todo el rio Amazonas, tiene 12 años navegando por este afluente."
+    var imagen3 = document.getElementById("tercero")
+    imagen3.src = "Imagenes/conductor.jpg"
+    var cambio4 = document.getElementById("text4")
+    cambio4.textContent = "Yeison Mosquera"
+    var ccambio4 = document.getElementById("textt4")
+    ccambio4.textContent = "Guia turistico"
+    var cambioo4 = document.getElementById("texto4")
+    cambioo4.textContent = "Velara por ti en tu instancia en el Chocó conociendo a las ballenas Jorobadas que estan en temporada."
+    var imagen4 = document.getElementById("cuarto")
+    imagen4.src = "Imagenes/guia_choco.jpg"
+})
+
+let mano = document.getElementById("boton1");
+mano.addEventListener("click", function () {
+    var cambio1 = document.getElementById("text1")
+    cambio1.textContent = "Lucia Gutierrez"
+    var ccambio1 = document.getElementById("textt1")
+    ccambio1.textContent = "Guia turistica"
+    var cambioo1 = document.getElementById("texto1")
+    cambioo1.textContent = "Nativa de la Sierra Nevada de Santa Marta, capacitada para promover el turismo en su región."
+    var imagen1 = document.getElementById("primero")
+    imagen1.src = "Imagenes/Indigena arhuaco.jpg"
+    var cambio2 = document.getElementById("text2")
+    cambio2.textContent = "Camilo Sanchez"
+    var ccambio2 = document.getElementById("textt2")
+    ccambio2.textContent = "Cocinero"
+    var cambioo2 = document.getElementById("texto2")
+    cambioo2.textContent = "Experto en parrilladas es el encargado de cocinarte lo mejor en tu estadia por el eje cafetero."
+    var imagen2 = document.getElementById("segundo")
+    imagen2.src = "Imagenes/descarga.jpeg"
+    var cambio3 = document.getElementById("text3")
+    cambio3.textContent = "Julio Mendez"
+    var ccambio3 = document.getElementById("textt3")
+    ccambio3.textContent = "DJ"
+    var cambioo3 = document.getElementById("texto3")
+    cambioo3.textContent = "Encargado de que tu ultima noche de vacaciones sea inolvidable con buena musica y un swing."
+    var imagen3 = document.getElementById("tercero")
+    imagen3.src = "Imagenes/djjj.jpeg"
+    var cambio4 = document.getElementById("text4")
+    cambio4.textContent = "Marcela Paz"
+    var ccambio4 = document.getElementById("textt4")
+    ccambio4.textContent = "Conductora"
+    var cambioo4 = document.getElementById("texto4")
+    cambioo4.textContent = "Encargada de llevarte a todos los lugares previstos en tu tours, un talento excepcional al momneto de manejar."
+    var imagen4 = document.getElementById("cuarto")
+    imagen4.src = "Imagenes/depositphotos.jpg"
+})
